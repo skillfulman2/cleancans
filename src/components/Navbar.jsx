@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, menu, logo } from "../assets";
+import { close, menu } from "../assets";
 import {text} from "../assets"
 import { navLinks } from "../constants";
 
@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={text} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={text} alt="hoobank" className="w-[200px] h-[48px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -41,6 +41,7 @@ const Navbar = () => {
           } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
+            <li>702-606-6673</li>
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}

@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -14,8 +14,8 @@ export const navLinks = [
     title: "Customers",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "serviceArea",
+    title: "Service Area",
   },
   
 ];
@@ -33,14 +33,14 @@ export const services = [
     icon: shield,
     title: "Cleaning",
     content:
-      "Our unique combination of hight heat, presssure, and natural cleansers will transform your bins.",
+      "Our unique combination of hight heat, pressure, and natural cleansers will destroy odor causing bacteria.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Guarantee",
     content:
-      "If for whatever reason you are unsatisfied with our service we will offer a 100% refund. Contact us for details",
+      "If for whatever reason you are unsatisfied with our service we will offer a 100% refund. Contact us for details.",
   },
 ];
 
