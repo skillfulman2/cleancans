@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, menu, logo } from "../assets";
+import {text} from "../assets"
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={text} alt="hoobank" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -19,6 +20,7 @@ const Navbar = () => {
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
+            
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>

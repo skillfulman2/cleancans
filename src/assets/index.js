@@ -5,8 +5,10 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
+import text from "./text.svg"
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
+import trailer from "./trailer.png"
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -49,5 +51,7 @@ export {
   twitter,
   people01,
   people02,
+  trailer,
   people03,
+  text,
 };

@@ -6,40 +6,41 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "services",
+    title: "Services",
+  },
+  {
+    id: "customers",
+    title: "Customers",
   },
   {
     id: "product",
     title: "Product",
   },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  
 ];
 
-export const features = [
+export const services = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Convenience",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Simply tell us when your garbage service comes and we will come to you.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Cleaning",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Our unique combination of hight heat, presssure, and natural cleansers will transform your bins.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Guarantee",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "If for whatever reason you are unsatisfied with our service we will offer a 100% refund. Contact us for details",
   },
 ];
 
@@ -73,19 +74,16 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Cans Cleaned",
+    value: "200+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Households Served",
+    value: "20+",
   },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
+  
+
 ];
 
 export const footerLinks = [
@@ -101,54 +99,42 @@ export const footerLinks = [
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
         name: "Terms & Services",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Services",
     links: [
       {
         name: "Help Center",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
         name: "Suggestions",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "Feedback",
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "Cancel Service",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Commercial",
     links: [
       {
-        name: "Our Partner",
+        name: "Our Commercial clients",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Offerings",
+        link: "https://www.hoobank.com/our-partner/",
       },
     ],
   },
